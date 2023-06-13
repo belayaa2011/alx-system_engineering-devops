@@ -1,0 +1,2 @@
+#!/bin/bash
+"*.gif"-printf"%f\n" | rev | cut -d '.' -f 2-
